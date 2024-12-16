@@ -23,3 +23,7 @@
 11-) Yeni tekstil urunlerinde HS2 RCA hesabi.xlsx: 2012-2017 arasında 2012'de yeni eklenen ürünlerin Türkiye için ithalat ve ihracatta RCA hesabını ve 2017-2022 arasında 2017'de yeni eklenen ürünlerin Türkiye için ithalat ve ihracatta RCA hesabını içerir.
 
 12-) Yeni tekstil urunlerinde her birinin HS2 RCA hesabi.xlsx: 2012-2017 arasında 2012'de yeni eklenen ürünlerin her 2 Basamaklı HS ürünü farklı olarak Türkiye için ithalat ve ihracatta RCA hesabını ve 2017-2022 arasında 2017'de yeni eklenen ürünlerin her 2 Basamaklı HS ürünü farklı olarak Türkiye için ithalat ve ihracatta RCA hesabını içerir.
+
+hs2_product_composition.r: Tree map oluşturmak için olan R kodu.
+
+deneme.ipynb: Hesaplamaların ve excellerin oluşturulduğu jupyter notebook kodu.

@@ -18,7 +18,7 @@ library(data.table)
 library(d3Tree)
 
 # Dosya yolunu d??zelt
-treemap_data <- data.table(read_xlsx("C:/Users/oguzo/OneDrive - Fintegral/Masa??st??/treemap.xlsx"))
+treemap_data <- data.table(read_xlsx("C:/Users/oguzo/Downloads/treemap.xlsx"))
 
 # Treemap grafikleri olu??turma
 for (y in unique(treemap_data$Y??l)) {
@@ -34,7 +34,7 @@ for (y in unique(treemap_data$Y??l)) {
   # Treemap olu??turma
   treemap(data,
           index = c("Grup", "x_name"),       # Kategoriler
-          vSize = "Ihracat_Dolar",          # De??er kolonu
+          vSize = "??hracat Dolar",          # De??er kolonu
           type = "categorical",             # Kategorik g??rselle??tirme
           vColor = "Grup",                  # Renk gruplar??
           aspRatio = 1920 / 1080,           # En-boy oran??
