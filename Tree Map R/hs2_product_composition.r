@@ -1,6 +1,6 @@
-
 Sys.setlocale(category = "LC_ALL", locale = "Turkish")
 
+# Gereken paketleri y??kleme
 if (!require(rjson)) install.packages('rjson')
 if (!require(dplyr)) install.packages('dplyr')
 if (!require(readxl)) install.packages('readxl')
@@ -17,39 +17,45 @@ library(RColorBrewer)
 library(data.table)
 library(d3Tree)
 
-treemap_data <- data.table(read_xlsx("C://Users//oguzo//Desktop//MENA//CEE-MENA//Tree Map R//treemap.xlsx"))
+# Dosya yolunu d??zelt
+treemap_data <- data.table(read_xlsx("C:/Users/oguzo/OneDrive - Fintegral/Masa??st??/treemap.xlsx"))
 
-for (y in treemap_data$Y??l) {
-  data = treemap_data[Y??l == y]
-  data = na.omit(data)
-  data = data[X_share >0.13]
+# Treemap grafikleri olu??turma
+for (y in unique(treemap_data$Y??l)) {
+  # Belirli y??l i??in veri filtreleme
+  data <- treemap_data[Y??l == y]
+  data <- na.omit(data)
+  data <- data[X_share > 0.13]
   
-  png(paste0('./',y,'.png'),
-      width=1920, height=1080)
-  treemap(data, index = c("Grup", "x_name"),
-          vSize = "??hracat Dolar", 
-          type = "categorical",
-          vColor = "Grup",
-          aspRatio = 1920/1080,
+  # PNG dosyas??n?? kaydetme
+  png(paste0('./', y, '.png'),
+      width = 1920, height = 1080)
+  
+  # Treemap olu??turma
+  treemap(data,
+          index = c("Grup", "x_name"),       # Kategoriler
+          vSize = "Ihracat_Dolar",          # De??er kolonu
+          type = "categorical",             # Kategorik g??rselle??tirme
+          vColor = "Grup",                  # Renk gruplar??
+          aspRatio = 1920 / 1080,           # En-boy oran??
           palette = as.vector(unique(data[order(data$Grup),]$Renk)),
           title.legend = NA,
-          title="",               
+          title = "",               
           position.legend = "none",
-          lowerbound.cex.labels=0.2, 
-          fontsize.labels=c(0,9),
+          lowerbound.cex.labels = 0.2, 
+          fontsize.labels = c(0, 9),
           fontsize.title = 20,
-          fontcolor.labels="white",
-          fontface.labels=c(2,2),
-          align.labels=list(
+          fontcolor.labels = "white",
+          fontface.labels = c(2, 2),
+          align.labels = list(
             c("center", "center"), 
             c("center", "center")
           ),
-          overlap.labels=0.1,                     
-          inflate.labels=T,
-          border.col=c("white"),
-          border.lwds=c(2,1)
-          
+          overlap.labels = 0.1,                     
+          inflate.labels = TRUE,
+          border.col = c("white"),
+          border.lwds = c(2, 1)
   )
-  dev.off()
   
+  dev.off()
 }

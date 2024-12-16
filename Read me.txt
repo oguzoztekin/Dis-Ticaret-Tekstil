@@ -1,0 +1,25 @@
+0-) HS92 Sektor Kodlari ve Isimleri.xlsx: Sektörlerdeki 2 basamaklı HS kodlarını içeren Atlas'dan alınmış referans dosyası.
+
+1-) Yeni Urunlerin Sektorleri.xlsx: Tekstil sektörüne 2007-2012-2017-2022'de yeni eklenen 6 basamaklı HS kodlarını, bu kodların 2 basamaklı ve 4 basamaklı HS kodlarını ve 2 basamaklı HS isimlerini içerir.
+
+2-) Turkiye'de tekstil ticaret hacmi.xlsx: 2012-2021 arasındaki Türkiye'nin toplam tekstil ticaret hacmini ve tekstilin ticaret hacmindeki oranını içerir.
+
+3-) Turkiye'de tekstil ithalat ve ihracat hacmi.xlsx: 2012-2021 arasındaki Türkiye'nin ihracatta ve ithalatta tekstil ticaret hacmini ve tekstilin toplam ihracat ve toplam ithalat hacmindeki oranını içerir.
+
+4-) Dunyada tekstil ticaret hacmi.xlsx: 2012-2021 arasındaki dünyanın toplam tekstil ticaret hacmini ve tekstilin ticaret hacmindeki oranını içerir.
+
+5-) Turkiye'nin tekstilde ihracat ve ithalat.xlsx: 2012-2021 arasında Türkiye'nin tekstilde ihracat ve ithalat yaptığı partnerleri ve oranlarını içerir.
+
+6-) Dunyada tekstilde en buyuk ihracatcilar ve ithalatcilar.xlsx: 2012-2021 arasında dünyanın tekstilde en çok ihracat ve ithalat yapan ülkelerini ve oranlarını içerir.
+
+7-) Turkiye'de tekstilde HS2 ihracat ve ithalat kirilimlari.xlsx: 2012-2021 arasında Türkiye'nin tekstil ihracat ve ithalatında bulunan 2 basamaklı HS kodlarını, türkçe isimlerini ve toplam tekstil ihracat ya da ithalatındaki oranlarını içerir.
+
+8-) Turkiye'de tekstilde HS4 ihracat ve ithalat kirilimlari.xlsx: 2012-2021 arasında Türkiye'nin tekstil ihracat ve ithalatında bulunan 4 basamaklı HS kodlarını ve toplam tekstil ihracat ya da ithalatındaki oranlarını içerir.
+
+9-) Dunyada tekstilde HS2 ihracat ve ithalat kirilimlari.xlsx: 2012-2021 arasında global tekstil ihracat ve ithalatında bulunan 2 basamaklı HS kodlarını, türkçe isimlerini ve toplam tekstil ihracat ya da ithalatındaki oranlarını içerir.
+
+10-) Dunyada tekstilde HS4 ihracat ve ithalat kirilimlari.xlsx: 2012-2021 arasında global tekstil ihracat ve ithalatında bulunan 4 basamaklı HS kodlarını ve toplam tekstil ihracat ya da ithalatındaki oranlarını içerir.
+
+11-) Yeni tekstil urunlerinde HS2 RCA hesabi.xlsx: 2012-2017 arasında 2012'de yeni eklenen ürünlerin Türkiye için ithalat ve ihracatta RCA hesabını ve 2017-2022 arasında 2017'de yeni eklenen ürünlerin Türkiye için ithalat ve ihracatta RCA hesabını içerir.
+
+12-) Yeni tekstil urunlerinde her birinin HS2 RCA hesabi.xlsx: 2012-2017 arasında 2012'de yeni eklenen ürünlerin her 2 Basamaklı HS ürünü farklı olarak Türkiye için ithalat ve ihracatta RCA hesabını ve 2017-2022 arasında 2017'de yeni eklenen ürünlerin her 2 Basamaklı HS ürünü farklı olarak Türkiye için ithalat ve ihracatta RCA hesabını içerir.
